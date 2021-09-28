@@ -2,14 +2,7 @@ import React from 'react';
 import '../css/Home/home.css';
 import bg from '../images/1.svg';
 
-import { FaFacebook, FaGithub, FaTelegram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
-
+import { FaGithub, FaTelegram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 
 
 
@@ -30,11 +23,11 @@ export default function Home() {
                     <div className="navbar">
                         <nav>
                             <ul>
-                            <li><Link to='/'>Home</Link></li>
-                            <li><Link to='/about'>About</Link></li>
-                            <li><Link to='/resume'>Resume</Link></li>
-                            <li><Link to='/services'>Services</Link></li>
-                            <li><Link to='/contact'>Contact</Link></li>
+                            <li className="one">Home</li>
+                            <li className="two">About</li>
+                            <li className="three">Resume</li>
+                            <li className="four">Services</li>
+                            <li className="five">Contact</li>
                             </ul>
                         </nav>
                     </div>
@@ -59,7 +52,6 @@ export default function Home() {
                     <div className="image">
                         <img src={bg} alt='image'></img>
                     </div>
-                    
             </div>
         </div>
     )

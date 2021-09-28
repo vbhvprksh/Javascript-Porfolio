@@ -13,6 +13,14 @@ svg {
 
 img {
   width: 450px;
+  -webkit-animation-name: slide;
+          animation-name: slide;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
 }
 
 .home {
@@ -37,6 +45,16 @@ img {
   margin-top: 220px;
   margin-left: 7%;
   padding: 5px;
+}
+
+.home .container .details .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .container .details .name h1 {
+  font-family: 'Gemunu Libre', sans-serif;
 }
 
 .home .container .details .position {
@@ -94,5 +112,27 @@ img {
 .home .container .image {
   margin-top: 100px;
   margin-left: 100px;
+}
+
+/*Keywords*/
+@-webkit-keyframes slide {
+  from {
+    -webkit-transform: translateY(-75px);
+            transform: translateY(-75px);
+  }
+  to {
+    -webkit-transform: translateY(75px);
+            transform: translateY(75px);
+  }
+}
+@keyframes slide {
+  from {
+    -webkit-transform: translateY(-75px);
+            transform: translateY(-75px);
+  }
+  to {
+    -webkit-transform: translateY(75px);
+            transform: translateY(75px);
+  }
 }
 /*# sourceMappingURL=home.css.map */

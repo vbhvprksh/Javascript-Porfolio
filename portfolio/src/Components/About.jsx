@@ -1,9 +1,23 @@
-import React from 'react'
+import React from 'react';
+import '../css/About/about.css';
 
 function About() {
     return (
-        <div>
-            <h1> this is About page</h1>
+        <div className="about">
+            <div className="navbar">
+                <nav>
+                    <div className="logo">
+                        <h1>Vaibhav Prakash</h1>
+                    </div>
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Resume</li>
+                        <li>Services</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     )
 }

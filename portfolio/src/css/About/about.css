@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.about {
+  background: #111;
+  color: #ffff;
+}
+
+.about .navbar {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.about .navbar ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.about .navbar ul li {
+  padding: 10px;
+  list-style: none;
+}
+/*# sourceMappingURL=about.css.map */

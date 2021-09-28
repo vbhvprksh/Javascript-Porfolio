@@ -11,7 +11,12 @@ svg{
 }
 img{
     width: 450px;
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
 }
+
 .home{
     width: auto;
     height: 98vh;
@@ -28,6 +33,12 @@ img{
             margin-top: 220px;
             margin-left: 7%;
             padding: 5px;
+            .name{
+                display: flex;                
+                h1{
+                    font-family: 'Gemunu Libre', sans-serif;
+                }
+            }
             .position{
                 margin-left:5px ;
                 margin-top: 12px;
@@ -73,4 +84,12 @@ img{
             margin-left: 100px;
         }
     }
+}
+
+
+/*Keywords*/
+
+@keyframes slide {
+    from{transform: translateY(-75px);}
+    to{transform: translateY(75px);}
 }
