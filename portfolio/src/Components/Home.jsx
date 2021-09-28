@@ -50,7 +50,7 @@ export default function Home() {
                     </div>
                 </div>
                     <div className="image">
-                        <img src={bg} alt='image'></img>
+                        <img src={bg} alt='image' className='pic'></img>
                     </div>
             </div>
         </div>

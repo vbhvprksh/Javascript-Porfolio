@@ -3,25 +3,138 @@
   padding: 0px;
 }
 
+strong {
+  margin-left: 15px;
+  padding-right: 15px;
+}
+
+svg {
+  width: 30px;
+  height: 30px;
+  color: yellowgreen;
+}
+
+span .icon {
+  color: yellowgreen;
+}
+
 .about {
-  background: #111;
-  color: #ffff;
+  background: linear-gradient(315deg, #fff 0%, #d7e1d7 74%);
+  height: 100vh;
 }
 
-.about .navbar {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+.about header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: bisque;
+  background-color: #112;
+  width: 100%;
+  height: 70px;
 }
 
-.about .navbar ul {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+.about header .logo {
+  margin-left: 7%;
+  margin-top: 22px;
+  width: 275px;
+  height: 50px;
 }
 
-.about .navbar ul li {
-  padding: 10px;
+.about header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+}
+
+.about header nav ul li {
+  padding: 15px;
   list-style: none;
+  font-size: 20px;
+}
+
+.about header nav ul li:hover {
+  border-bottom: 1.5px solid #fff;
+}
+
+.about .container1 {
+  background-color: #112;
+  width: 80%;
+  color: wheat;
+  margin-left: 10%;
+  margin-top: 5%;
+  height: 200vh;
+}
+
+.about .container1 .intro {
+  margin: 25px;
+  padding-top: 20px;
+  width: auto;
+  height: 15px;
+}
+
+.about .container1 .more {
+  width: auto;
+  height: 20px;
+  font-size: 30px;
+  margin: 25px;
+}
+
+.about .container1 .big-container .img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .container1 .big-container .img-container img {
+  width: 275px;
+  margin: 25px;
+  height: auto;
+}
+
+.about .container1 .big-container .img-container .cont {
+  margin-top: 25px;
+}
+
+.about .container1 .big-container .img-container .cont .contone {
+  font-size: 25px;
+}
+
+.about .container1 .big-container .img-container .cont .conttwo {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.about .container1 .big-container .img-container .cont .contthree {
+  padding-top: 20px;
+  width: 750px;
+}
+
+.about .container1 .big-container .img-container .cont .contthree .one {
+  font-size: 20px;
+  margin-left: 10px;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .container1 .big-container .img-container .cont .contthree .one .one-one {
+  margin-left: 100px;
+}
+
+.about .container1 .big-container .img-container .cont .contthree .one .one-two {
+  margin-left: 94px;
+}
+
+.about .container1 .big-container .img-container .cont .contthree .one .one-three {
+  margin-left: 128px;
+}
+
+.about .container1 .big-container .img-container .cont .contthree .one .one-four {
+  margin-left: 215px;
 }
 /*# sourceMappingURL=about.css.map */

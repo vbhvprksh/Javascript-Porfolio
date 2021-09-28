@@ -11,7 +11,7 @@ svg {
   padding-top: 15px;
 }
 
-img {
+img .pic {
   width: 450px;
   -webkit-animation-name: slide;
           animation-name: slide;
@@ -28,6 +28,7 @@ img {
   height: 98vh;
   border: 5px solid #00ffff;
   border-radius: 16px;
+  position: relative;
   background: linear-gradient(315deg, #fff 0%, #d7e1d7 74%);
 }
 
@@ -112,6 +113,18 @@ img {
 .home .container .image {
   margin-top: 100px;
   margin-left: 100px;
+}
+
+.home .container .image .pic {
+  width: 450px;
+  -webkit-animation-name: slide;
+          animation-name: slide;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
 }
 
 /*Keywords*/
