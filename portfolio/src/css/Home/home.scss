@@ -87,12 +87,11 @@ img{
             margin-left: 100px;
             .pic{
                 width: 450px;
-    animation-name: slide;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: both;
-
-            }
+                animation-name: slide;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+                animation-fill-mode: both;
+                }
         }
     }
 }

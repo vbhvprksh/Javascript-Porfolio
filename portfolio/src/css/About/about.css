@@ -5,6 +5,7 @@
 
 strong {
   margin-left: 15px;
+  margin-top: 18px;
   padding-right: 15px;
 }
 
@@ -67,6 +68,7 @@ span .icon {
   margin-left: 10%;
   margin-top: 5%;
   height: 200vh;
+  /*Skills Section*/
 }
 
 .about .container1 .intro {
@@ -87,6 +89,8 @@ span .icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-shadow: 5px 5px 10px rgba(255, 251, 251, 0.1);
+          box-shadow: 5px 5px 10px rgba(255, 251, 251, 0.1);
 }
 
 .about .container1 .big-container .img-container img {
@@ -116,18 +120,18 @@ span .icon {
 .about .container1 .big-container .img-container .cont .contthree .one {
   font-size: 20px;
   margin-left: 10px;
-  padding: 5px;
+  padding-top: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .about .container1 .big-container .img-container .cont .contthree .one .one-one {
-  margin-left: 100px;
+  margin-left: 90px;
 }
 
 .about .container1 .big-container .img-container .cont .contthree .one .one-two {
-  margin-left: 94px;
+  margin-left: 73px;
 }
 
 .about .container1 .big-container .img-container .cont .contthree .one .one-three {
@@ -136,5 +140,152 @@ span .icon {
 
 .about .container1 .big-container .img-container .cont .contthree .one .one-four {
   margin-left: 215px;
+}
+
+.about .container1 .skills-bar {
+  width: 1020px;
+  background: transparent;
+  border-radius: 10px;
+  padding: 25px 30px;
+  -webkit-box-shadow: 5px 5px 10px rgba(255, 251, 251, 0.1);
+          box-shadow: 5px 5px 10px rgba(255, 251, 251, 0.1);
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .container1 .skills-bar .bar {
+  margin: 20px;
+}
+
+.about .container1 .skills-bar .bar :first-child {
+  margin-top: 0px;
+}
+
+.about .container1 .skills-bar .bar .info {
+  margin-bottom: 5px;
+}
+
+.about .container1 .skills-bar .bar .info span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.about .container1 .skills-bar .bar .progress-line {
+  position: relative;
+  height: 12px;
+  width: 90%;
+  background: #f0f0f0;
+  -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05), 0px 1px rgba(255, 255, 255, 0.8);
+          box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05), 0px 1px rgba(255, 255, 255, 0.8);
+  -webkit-animation: animate 1s;
+          animation: animate 1s;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-animation: animate 3s cubic-bezier(1, 0, 0.5, 1) forwards;
+          animation: animate 3s cubic-bezier(1, 0, 0.5, 1) forwards;
+  -webkit-animation-iteration-count: 3;
+          animation-iteration-count: 3;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.about .container1 .skills-bar .bar .progress-line span::after {
+  position: absolute;
+  top: -18px;
+  right: 50px;
+  color: #fff;
+  background: #000;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 1px 8px;
+  border-radius: 25px;
+}
+
+.skill-bar1 {
+  width: 450px;
+}
+
+.skill-bar2 {
+  width: 450px;
+  margin-left: 50px;
+}
+
+/*Skills Progress Bar*/
+.progress-line.html span {
+  height: 100%;
+  width: 95%;
+  background: #6665ee;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.progress-line.html span::after {
+  content: "95%";
+}
+
+.progress-line.css span {
+  height: 100%;
+  width: 85%;
+  background: #6665ee;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.progress-line.css span::after {
+  content: "85%";
+}
+
+.progress-line.js span {
+  height: 100%;
+  width: 40%;
+  background: #6665ee;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.progress-line.js span::after {
+  content: "40%";
+}
+
+.progress-line.bootstrap span {
+  height: 100%;
+  width: 75%;
+  background: #6665ee;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.progress-line.bootstrap span::after {
+  content: "75%";
+}
+
+.progress-line.react span {
+  height: 100%;
+  width: 50%;
+  background: #6665ee;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.progress-line.react span::after {
+  content: "50%";
+}
+
+@-webkit-keyframes animate {
+  100% {
+    -webkit-transform: scaleX(1.2);
+            transform: scaleX(1.2);
+  }
+}
+
+@keyframes animate {
+  100% {
+    -webkit-transform: scaleX(1.2);
+            transform: scaleX(1.2);
+  }
 }
 /*# sourceMappingURL=about.css.map */
