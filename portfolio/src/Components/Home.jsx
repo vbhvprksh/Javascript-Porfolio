@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/Home/home.css';
 import bg from '../images/1.svg';
-
+import {Link} from "react-router-dom";
 import { FaGithub, FaTelegram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 
 
@@ -23,11 +23,11 @@ export default function Home() {
                     <div className="navbar">
                         <nav>
                             <ul>
-                            <li className="one">Home</li>
-                            <li className="two">About</li>
-                            <li className="three">Resume</li>
-                            <li className="four">Services</li>
-                            <li className="five">Contact</li>
+                            <Link to='/'><li className="one">Home</li></Link>
+                            <Link to='/about'><li className="two">About</li></Link>
+                            <Link to='/resume'><li className="three">Resume</li></Link>
+                            <Link><li className="four">Services</li></Link>
+                            <Link to='/contact'><li className="five">Contact</li></Link>
                             </ul>
                         </nav>
                     </div>
@@ -56,3 +56,4 @@ export default function Home() {
         </div>
     )
 }
+

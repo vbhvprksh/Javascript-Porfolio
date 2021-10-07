@@ -152,6 +152,49 @@ function About() {
                 
                     </div>
                 </div>
+                <div className="intro">
+                    SKILLS <hr></hr>
+                </div>
+                <div className="container-box">
+                    <div className="line1">
+                    <div className="box1">
+                        <div className="box-icon"><FaAngleRight></FaAngleRight></div>
+                        <div className="box-text">Photoshop</div>
+                    </div>
+                    <div className="box1">
+                        <div className="box-icon"><FaAngleRight></FaAngleRight></div>
+                        <div className="box-text">Photoshop</div>
+                    </div>
+                    <div className="box1">
+                        <div className="box-icon"><FaAngleRight></FaAngleRight></div>
+                        <div className="box-text">Photoshop</div>
+                    </div>
+                    <div className="box1">
+                        <div className="box-icon"><FaAngleRight></FaAngleRight></div>
+                        <div className="box-text">Photoshop</div>
+                    </div>
+                    </div>
+                    <br></br>
+                    <div className="line2">
+                    <div className="box1">
+                        <div className="box-icon"><FaAngleRight></FaAngleRight></div>
+                        <div className="box-text">Photoshop</div>
+                    </div>
+                    <div className="box1">
+                        <div className="box-icon"><FaAngleRight></FaAngleRight></div>
+                        <div className="box-text">Photoshop</div>
+                    </div>
+                    <div className="box1">
+                        <div className="box-icon"><FaAngleRight></FaAngleRight></div>
+                        <div className="box-text">Photoshop</div>
+                    </div>
+                    <div className="box1">
+                        <div className="box-icon"><FaAngleRight></FaAngleRight></div>
+                        <div className="box-text">Photoshop</div>
+                    </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     )

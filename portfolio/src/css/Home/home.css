@@ -23,6 +23,10 @@ img .pic {
           animation-fill-mode: both;
 }
 
+Link {
+  color: #00ffff;
+}
+
 .home {
   width: auto;
   height: 98vh;

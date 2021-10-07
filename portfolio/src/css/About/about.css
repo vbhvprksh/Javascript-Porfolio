@@ -19,6 +19,13 @@ span .icon {
   color: yellowgreen;
 }
 
+hr {
+  margin-top: 15px;
+  outline-color: aqua;
+  color: brown;
+  width: 100px;
+}
+
 .about {
   background: linear-gradient(315deg, #fff 0%, #d7e1d7 74%);
   height: 100vh;
@@ -69,6 +76,7 @@ span .icon {
   margin-top: 5%;
   height: 200vh;
   /*Skills Section*/
+  /*Intrest Section*/
 }
 
 .about .container1 .intro {
@@ -187,8 +195,8 @@ span .icon {
           transform-origin: left;
   -webkit-animation: animate 3s cubic-bezier(1, 0, 0.5, 1) forwards;
           animation: animate 3s cubic-bezier(1, 0, 0.5, 1) forwards;
-  -webkit-animation-iteration-count: 3;
-          animation-iteration-count: 3;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -203,6 +211,70 @@ span .icon {
   font-weight: 500;
   padding: 1px 8px;
   border-radius: 25px;
+}
+
+.about .container1 .container-box .line1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .container1 .container-box .line1 .box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  height: 60px;
+  background: transparent;
+  margin: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 5px 5px 10px rgba(248, 248, 248, 0.3);
+          box-shadow: 5px 5px 10px rgba(248, 248, 248, 0.3);
+}
+
+.about .container1 .container-box .line1 .box1 .box-text {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 9px;
+}
+
+.about .container1 .container-box .line1 .box1 .box-icon {
+  margin-left: 35px;
+  margin-bottom: 15px;
+}
+
+.about .container1 .container-box .line2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .container1 .container-box .line2 .box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  height: 60px;
+  background: transparent;
+  margin: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 5px 5px 10px rgba(248, 248, 248, 0.3);
+          box-shadow: 5px 5px 10px rgba(248, 248, 248, 0.3);
+}
+
+.about .container1 .container-box .line2 .box1 .box-text {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 9px;
+}
+
+.about .container1 .container-box .line2 .box1 .box-icon {
+  margin-left: 35px;
+  margin-bottom: 15px;
 }
 
 .skill-bar1 {

@@ -17,6 +17,12 @@ span{
         color: yellowgreen;
     }
 }
+hr{
+    margin-top: 15px;
+    outline-color: aqua;
+    color: brown;
+    width: 100px;
+}
 
 .about{
     background: linear-gradient(315deg, #fff 0% , #d7e1d7 74%);
@@ -72,7 +78,6 @@ span{
             .img-container{
             display: flex;
             box-shadow: 5px 5px 10px rgba(255, 251, 251, 0.1);
-
                 img{
                     width: 275px;
                     margin: 25px;
@@ -144,7 +149,7 @@ span{
                     transform: scaleX(0);
                     transform-origin: left;
                     animation: animate 3s cubic-bezier(1,0,0.5,1) forwards;
-                    animation-iteration-count: 3;
+                    animation-iteration-count: 1;
                     animation-fill-mode: both;
                     span{
                         &::after {
@@ -158,6 +163,51 @@ span{
                             padding: 1px 8px;
                             border-radius: 25px;
                         }
+                    }
+                }
+            }
+        }
+        /*Intrest Section*/
+        .container-box{
+            .line1{
+                display: flex;
+                .box1{
+                    display: flex;
+                    width: 260px;
+                    height: 60px;
+                    background: transparent;
+                    margin: 20px;
+                    align-items: center;
+                    box-shadow: 5px 5px 10px rgba(248, 248, 248, 0.3);
+                    .box-text{
+                        font-size:20px;
+                        margin-top: 10px;
+                        margin-bottom: 9px;
+                    }
+                    .box-icon{
+                        margin-left: 35px;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+            .line2{
+                display: flex;
+                .box1{
+                    display: flex;
+                    width: 260px;
+                    height: 60px;
+                    background: transparent;
+                    margin: 20px;
+                    align-items: center;
+                    box-shadow: 5px 5px 10px rgba(248, 248, 248, 0.3);
+                    .box-text{
+                        font-size:20px;
+                        margin-top: 10px;
+                        margin-bottom: 9px;
+                    }
+                    .box-icon{
+                        margin-left: 35px;
+                        margin-bottom: 15px;
                     }
                 }
             }
