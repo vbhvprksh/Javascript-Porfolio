@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -27,19 +28,31 @@ Link {
   color: #00ffff;
 }
 
+body {
+  background-color: #112;
+}
+
 .home {
   width: auto;
-  height: 98vh;
-  border: 5px solid #00ffff;
+  height: 102vh;
   border-radius: 16px;
   position: relative;
   background: linear-gradient(315deg, #fff 0%, #d7e1d7 74%);
+  -webkit-animation-name: contain;
+          animation-name: contain;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  animation-direction: alternate-reverse;
 }
 
 .home .container {
   width: auto;
   height: 98vh;
-  border: solid black 2px;
+  border: solid black 5px;
   border-radius: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -59,12 +72,24 @@ Link {
 }
 
 .home .container .details .name h1 {
-  font-family: 'Gemunu Libre', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .home .container .details .position {
   margin-left: 5px;
   margin-top: 12px;
+}
+
+.home .container .details .position h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.home .container .details .position h2 u {
+  cursor: pointer;
+}
+
+.home .container .details .position h2 u :hover {
+  color: #00ffff;
 }
 
 .home .container .details .navbar {
@@ -150,6 +175,28 @@ Link {
   to {
     -webkit-transform: translateY(75px);
             transform: translateY(75px);
+  }
+}
+
+@-webkit-keyframes contain {
+  from {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  to {
+    -webkit-transform: translateY(12px);
+            transform: translateY(12px);
+  }
+}
+
+@keyframes contain {
+  from {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  to {
+    -webkit-transform: translateY(12px);
+            transform: translateY(12px);
   }
 }
 /*# sourceMappingURL=home.css.map */

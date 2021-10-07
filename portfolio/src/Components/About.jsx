@@ -26,7 +26,7 @@ function About() {
                     <div className="more">Learn More About Me</div>
                     <div className="big-container">
                         <div className="img-container">
-                            <img src={self} alt='image' className="self"></img>
+                            <img src={self} alt='self' className="self"></img>
                             <div className="cont">
                                 <div className="contone">
                                     Front-End Web Developer

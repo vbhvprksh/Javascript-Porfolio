@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -21,17 +23,24 @@ img{
 Link{
     color: #00ffff;
 }
+body{
+    background-color: #112;
+}
 .home{
     width: auto;
-    height: 98vh;
-    border: 5px solid #00ffff;
+    height: 102vh;
     border-radius: 16px;
     position: relative;
     background: linear-gradient(315deg, #fff 0% , #d7e1d7 74%);
+    animation-name: contain;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate-reverse;
     .container{
         width: auto;
         height: 98vh;
-        border: solid black 2px;
+        border: solid black 5px;
         border-radius: 16px;
         display: flex;
         .details{
@@ -39,14 +48,23 @@ Link{
             margin-left: 7%;
             padding: 5px;
             .name{
-                display: flex;                
+                display: flex;
                 h1{
-                    font-family: 'Gemunu Libre', sans-serif;
+                    font-family: 'Roboto', sans-serif;                
                 }
             }
             .position{
-                margin-left:5px ;
+                margin-left:5px;
                 margin-top: 12px;
+                h2{
+                    font-family: 'Roboto', sans-serif;
+                    u{
+                        cursor: pointer;
+                        :hover{
+                            color: #00ffff;
+                        }
+                    }
+                }
             }
             .navbar {   
                 width: 350px;
@@ -104,4 +122,9 @@ Link{
 @keyframes slide {
     from{transform: translateY(-75px);}
     to{transform: translateY(75px);}
+}
+
+@keyframes contain {
+    from{transform: translateY(-10px);}
+    to{transform: translateY(12px);}
 }
